@@ -1,0 +1,20 @@
+h3 {
+  text-align: center;
+  font-size: 15px;
+  color:rbg(110, 107, 106);
+}
+
+.books {
+  margin-left: 25px;
+  padding: 15px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width:100%;
+  height: 250px;
+}
