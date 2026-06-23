@@ -1,0 +1,59 @@
+h3 {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(110, 107, 106);
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+    justify-content: center; /* centers all cards on the page */
+}
+
+.book-card {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+
+    text-align: left; /* keeps text inside card left-aligned */
+}
+
+.book-card img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto; /* centers image only */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+}
+
+.cart-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.cart-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+}
